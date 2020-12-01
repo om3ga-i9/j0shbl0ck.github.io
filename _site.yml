@@ -15,5 +15,5 @@ navbar:
       href: foodrecipes.html
 output:
   html_document:
-  theme: lux
-  css: bootstrap.css
+    theme: lux
+  
