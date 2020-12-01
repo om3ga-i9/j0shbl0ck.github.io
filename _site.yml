@@ -5,6 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+<<<<<<< HEAD
     - text: "About Me"
       href: about.html
     - text: "Ti-84 Projects"
@@ -12,6 +13,15 @@ navbar:
     - text: "Python Projects"
       href: pythonprojects.html
     - text: "Food Recipes"
+=======
+    - text: "About Me |"
+      href: about.html
+    - text: "Ti-84 Projects |"
+      href: ti84.html
+    - text: "Python Projects |"
+      href: pythonprojects.html
+    - text: "Food Recipes |"
+>>>>>>> 415931e61a8ab7aec67905af798fa7e8fdc53e68
       href: foodrecipes.html
   output:
     html_document:
