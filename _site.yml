@@ -5,13 +5,13 @@ navbar:
   left:
     - text: "| Home |"
       href: index.html
-    - text: " About Me |"
+    - text: "About Me |"
       href: about.html
-    - text: " Ti-84 Projects |"
+    - text: "Ti-84 Projects |"
       href: ti84.html
-    - text: " Python Projects |"
+    - text: "Python Projects |"
       href: pythonprojects.html
-    - text: " Food Recipes |"
+    - text: "Food Recipes |"
       href: foodrecipes.html
 
   
