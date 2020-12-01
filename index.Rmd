@@ -4,4 +4,11 @@ output: html_docuemnt
 ---
 ![](websitepics/tester-2.png) 
 <p>&nbsp;</p>
-<div align="center"># Hi there! Welcome to my first GitHub website!
+<div align="center"># __Hi there!__ Welcome to my first GitHub website!  
+
+<p>&nbsp;</p>
+## This website was created for a final project and hosts <br /> four different pages on individual information!
+
+<p>&nbsp;</p>
+<div align="center"># _ENJOY!_
+
