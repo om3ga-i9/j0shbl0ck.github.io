@@ -12,6 +12,7 @@ navbar:
     - text: "Python Projects"
       href: pythonprojects.html
     - text: "Food Recipes"
+      href: foodrecipes.html
 
 output:
   html_document:
