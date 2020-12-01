@@ -5,6 +5,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+<<<<<<< HEAD
     - text: "About Me"
       href: about.html
     - text: "Ti-84 Projects"
@@ -12,8 +13,7 @@ navbar:
     - text: "Python Projects"
       href: pythonprojects.html
     - text: "Food Recipes"
-      href: foodrecipes.html
-  output:
-    html_document:
-      theme: cosmo
+output:
+  html_document:
+    theme: cosmo
   
