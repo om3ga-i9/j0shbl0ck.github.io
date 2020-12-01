@@ -13,3 +13,7 @@ navbar:
       href: pythonprojects.html
     - text: "Food Recipes"
       href: foodrecipes.html
+output:
+  html_document:
+  theme: lux
+  css: bootstrap.css
