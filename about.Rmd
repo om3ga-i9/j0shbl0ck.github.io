@@ -6,8 +6,7 @@
 <p>I am an undergraduate at the _University of Missouri - Columbia_ studying 
 Information Technology. While I am not busy in college studies, I spend time at
 home doing hobbies such as video editing or video games!</p>
-<p>You are already here, so go check out my [__LinkedIn__](https://www.linkedin.com/in/j0shbl0ck247/)
-and let's connect! If you are interested in following me on other social media 
-platforms, you can scan the QR code or tap my [__Linktr.ee__](https://linktr.ee/j0shbl0ck) link.</p> 
+<p>You are already here, so go check out my <a href="https://www.linkedin.com/in/j0shbl0ck247/" target="_blank">__LinkedIn__</a>! and let's connect! If you are interested in following me on other social media 
+platforms, you can scan the QR code or tap my <a href="https://linktr.ee/j0shbl0ck" target="_blank">__Linktr.ee__</a> link.</p> 
 ![](websitepics/j0shbl0ck.png)
 
