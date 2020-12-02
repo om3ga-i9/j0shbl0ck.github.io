@@ -1,5 +1,15 @@
----
-title: "Ti-84 Projects"
----
-
-Sample Text
+<p>&nbsp;</p>
+# __Ti-84 Graphing Calculator Programming__
+<p>The Ti-84 graphing calculators have the ability to create your own programs
+to show the sequences and radians, compute the quadratic formula, and more!</p>
+<p>In tenth grade, I grew tired of having to memorize math formulas, so in my calculator 
+I first started out with having them displayed when running a created program. 
+This obviously gave me an upper hand on tests and the math teacher approved of 
+this as it was impressive to use a calculator with this type of reasoning.</p>
+<p>Becoming more interested in coding on calculators I began programming tiny programs 
+turning what was only being displayed into real-time calculations. 
+The programming language is called, _TI-Basics_</p>
+<p>I have not resorted to using my programs anymore, but calculator programs were 
+legal on the ACT exams! The only rule that applied was the programs could only have 
+10 lines of code, however it need said how many programs you could have...</p>
+### Attached below is the complete source code for my program: ALGEBRA2
