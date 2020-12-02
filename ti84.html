@@ -341,16 +341,16 @@ Menu(&quot;Algebra 2 Home&quot;,&quot;Coordinate Geometry&quot;,A1,&quot;Trigono
 ClrHome
 
 Lbl A1
-Menu(&quot;COORDINATE GEOMETRY&quot;,&quot;DISTANCE&quot;,B1,&quot;MIDPOINT&quot;,B2,&quot;SLOPE&quot;,B3,&quot;&quot;,0)
+Menu(&quot;COORDINATE GEOMETRY&quot;,&quot;DISTANCE&quot;,B1,&quot;MIDPOINT&quot;,B2,&quot;SLOPE&quot;,B3,&quot;[black arrow left]&quot;,0)
 ClrHome
 Lbl B1
-Disp &quot;d=√(X2-X1)+(Y2-Y1)
+Disp &quot;d=√(X2-X1)^2+(Y2-Y1)^2
 Input &quot;X1? &quot;,A
 Input &quot;Y1? &quot;,B 
 Input &quot;X2? &quot;,C
 Input &quot;Y2? &quot;,D
-(C-A)→J
-(D-B)→K
+(C-A)^2→J
+(D-B)^2→K
 √(J+K)→Z
 Disp Z
 Pause 
