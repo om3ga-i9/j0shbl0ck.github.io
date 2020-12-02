@@ -68,11 +68,11 @@ Lbl H1
 Menu("LAW OF COSINES","Little A",D1,"Little B",D2,"Little C",D3,"Finding Angles",D4,"[black arrow left]",A2)
 Lbl D1
 ClrHome
-Disp "a=b+c-2(b)(c)cos(A°)"
+Disp "a^2=b^2+c^2-2(b)(c)cos(A°)"
 Input "A°?",A
 Input "b?",B
 Input "c?",C
-B+C-2(B)(C)cos(A°)→S
+B^2+C^2-2(B)(C)cos(A°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -80,11 +80,11 @@ Pause
 Goto A2
 Lbl D2
 ClrHome
-Disp "b=a+c-2(a)(c)cos(B°)"
+Disp "b^2=a^2+c^2-2(a)(c)cos(B°)"
 Input "a?",A
 Input "B°?",B
 Input "c?",C
-A+C-2(A)(C)cos(B°)→S
+A^2+C^2-2(A)(C)cos(B°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -92,11 +92,11 @@ Pause
 Goto A2
 Lbl D3
 ClrHome
-Disp "c=a+b-2(a)(b)cos(C°)"
+Disp "c^2=a^2+b^2-2(a)(b)cos(C°)"
 Input "a?",A
 Input "b?",B
 Input "C°?",C
-A+B-2(A)(B)cos(C°)→S
+A^2+B^2-2(A)(B)cos(C°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -110,8 +110,8 @@ Disp "Given three sides, find A°"
 Input "a?",A
 Input "b?",B
 Input "c?",C
-(B+C-A)/(2(B)(C))→K
-cos(K)→O
+(B^2+C^2-A^2)/(2(B)(C))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp "Angle A",Y
@@ -123,8 +123,8 @@ Disp "Given three sides, find B°"
 Input "a?",A
 Input "b?",B
 Input "c?",C
-(C+A-B)/(2(C)(A))→K
-cos(K)→O
+(C^2+A^2-B^2)/(2(C)(A))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp "Angle B",Y
@@ -136,8 +136,8 @@ Disp "Given three sides, find C°"
 Input "a?",A
 Input "b?",B
 Input "c?",C
-(A+B-C)/(2(A)(B))→K
-cos(K)→O
+(A^2+B^2-C^2)/(2(A)(B))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp "Angle C",Y
@@ -182,22 +182,22 @@ Disp "Opp,Hyp,Adj,OF θ"
 Prompt O
 Prompt H
 Prompt A
-Disp "Sin θ",O/HFrac
+Disp "Sin θ",O/H[black arrow right]Frac
 Disp "[ENTER] FOR NEXT"
 Pause 
-Disp "Cos θ",A/HFrac
+Disp "Cos θ",A/H[black arrow right]Frac
 Disp "[ENTER] FOR NEXT"
 Pause 
-Disp "Tan θ",O/AFrac
+Disp "Tan θ",O/A[black arrow right]Frac
 Disp "[ENTER] FOR NEXT"
 Pause 
-Disp "Csc θ",H/OFrac
+Disp "Csc θ",H/O[black arrow right]Frac
 Disp "[ENTER] FOR NEXT"
 Pause 
-Disp "Sec θ",H/AFrac
+Disp "Sec θ",H/A[black arrow right]Frac
 Disp "[ENTER] FOR NEXT"
 Pause 
-Disp "Cot θ",A/OFrac
+Disp "Cot θ",A/O[black arrow right]Frac
 Disp "[ENTER] TO END"
 Pause 
 Goto A2
@@ -298,12 +298,12 @@ Menu("Quadratic Formula","–B+√(B-4AC)/2A",G1,"–B-√(B-4AC)/2A",G2,"
 ClrHome
 Lbl G1
 ClrHome
-Disp "–B+√(B-4AC)/2A"
-Disp "X=A,X=B,WHOLE NUMBER=C"
+Disp "–B+√(B^2-4AC)/2A"
+Disp "X^2=A,X=B,WHOLE NUMBER=C"
 Input "A?",A
 Input "B?",B
 Input "C?",C
-If (B-(4AC))<0
+If (B^2-(4AC))<0
 Then
 Disp "No Solution"
 Pause 
@@ -315,18 +315,18 @@ Disp "Not Quadratic"
 Pause 
 Goto A5
 Else
-(–B+√(B-4AC))/(2A)→W
+(–B+√(B^2-4AC))/(2A)→W
 Disp W
 Pause 
 Goto A5
 Lbl G2
 ClrHome
-Disp "–B-√(B-4AC)/2A"
-Disp "X=A,X=B,WHOLE NUMBER=C
+Disp "–B-√(B^2-4AC)/2A"
+Disp "X^2=A,X=B,WHOLE NUMBER=C
 Input "A?",A
 Input "B?",B
 Input "C?",C
-If (B-(4AC))<0
+If (B^2-(4AC))<0
 Then
 Disp "No Solution"
 Pause 
@@ -338,17 +338,17 @@ Disp "Not Quadratic"
 Pause 
 Goto A5
 Else
-(–B-√(B-4AC))/(2A)→H
+(–B-√(B^2-4AC))/(2A)→H
 Disp H
 Pause 
 Goto A5
 Lbl G3
 ClrHome
-Disp "X=A,X=B,WHOLE NUMBER=C"
+Disp "X^2=A,X=B,WHOLE NUMBER=C"
 Input "A?",A
 Input "B?",B
 Input "C?",C
-If (B-(4AC))<0
+If (B^2-(4AC))<0
 Then
 Disp "No Solution"
 Pause 
@@ -360,11 +360,11 @@ Disp "Not Quadratic"
 Pause 
 Goto A5
 Else
-Disp "[–B+√(B-4AC)/2A]
-(–B+√(B-4AC))/(2A)→V
+Disp "[–B+√(B^2-4AC)/2A]
+(–B+√(B^2-4AC))/(2A)→V
 Disp V
-Disp "[–B-√(B-4AC)/2A]"
-(–B-√(B-4AC))/(2A)→Q
+Disp "[–B-√(B^2-4AC)/2A]"
+(–B-√(B^2-4AC))/(2A)→Q
 Disp Q
 Pause 
 Goto A5

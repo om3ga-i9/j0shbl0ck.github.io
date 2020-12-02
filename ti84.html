@@ -387,11 +387,11 @@ Lbl H1
 Menu(&quot;LAW OF COSINES&quot;,&quot;Little A&quot;,D1,&quot;Little B&quot;,D2,&quot;Little C&quot;,D3,&quot;Finding Angles&quot;,D4,&quot;[black arrow left]&quot;,A2)
 Lbl D1
 ClrHome
-Disp &quot;a=b+c-2(b)(c)cos(A°)&quot;
+Disp &quot;a^2=b^2+c^2-2(b)(c)cos(A°)&quot;
 Input &quot;A°?&quot;,A
 Input &quot;b?&quot;,B
 Input &quot;c?&quot;,C
-B+C-2(B)(C)cos(A°)→S
+B^2+C^2-2(B)(C)cos(A°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -399,11 +399,11 @@ Pause
 Goto A2
 Lbl D2
 ClrHome
-Disp &quot;b=a+c-2(a)(c)cos(B°)&quot;
+Disp &quot;b^2=a^2+c^2-2(a)(c)cos(B°)&quot;
 Input &quot;a?&quot;,A
 Input &quot;B°?&quot;,B
 Input &quot;c?&quot;,C
-A+C-2(A)(C)cos(B°)→S
+A^2+C^2-2(A)(C)cos(B°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -411,11 +411,11 @@ Pause
 Goto A2
 Lbl D3
 ClrHome
-Disp &quot;c=a+b-2(a)(b)cos(C°)&quot;
+Disp &quot;c^2=a^2+b^2-2(a)(b)cos(C°)&quot;
 Input &quot;a?&quot;,A
 Input &quot;b?&quot;,B
 Input &quot;C°?&quot;,C
-A+B-2(A)(B)cos(C°)→S
+A^2+B^2-2(A)(B)cos(C°)→S
 √(S→I
 round(I,2)→X
 Disp X
@@ -429,8 +429,8 @@ Disp &quot;Given three sides, find A°&quot;
 Input &quot;a?&quot;,A
 Input &quot;b?&quot;,B
 Input &quot;c?&quot;,C
-(B+C-A)/(2(B)(C))→K
-cos(K)→O
+(B^2+C^2-A^2)/(2(B)(C))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp &quot;Angle A&quot;,Y
@@ -442,8 +442,8 @@ Disp &quot;Given three sides, find B°&quot;
 Input &quot;a?&quot;,A
 Input &quot;b?&quot;,B
 Input &quot;c?&quot;,C
-(C+A-B)/(2(C)(A))→K
-cos(K)→O
+(C^2+A^2-B^2)/(2(C)(A))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp &quot;Angle B&quot;,Y
@@ -455,8 +455,8 @@ Disp &quot;Given three sides, find C°&quot;
 Input &quot;a?&quot;,A
 Input &quot;b?&quot;,B
 Input &quot;c?&quot;,C
-(A+B-C)/(2(A)(B))→K
-cos(K)→O
+(A^2+B^2-C^2)/(2(A)(B))→K
+cos^-1(K)→O
 round(O,0)→Z
 round(Z,0)→Y
 Disp &quot;Angle C&quot;,Y
@@ -501,22 +501,22 @@ Disp &quot;Opp,Hyp,Adj,OF θ&quot;
 Prompt O
 Prompt H
 Prompt A
-Disp &quot;Sin θ&quot;,O/HFrac
+Disp &quot;Sin θ&quot;,O/H[black arrow right]Frac
 Disp &quot;[ENTER] FOR NEXT&quot;
 Pause 
-Disp &quot;Cos θ&quot;,A/HFrac
+Disp &quot;Cos θ&quot;,A/H[black arrow right]Frac
 Disp &quot;[ENTER] FOR NEXT&quot;
 Pause 
-Disp &quot;Tan θ&quot;,O/AFrac
+Disp &quot;Tan θ&quot;,O/A[black arrow right]Frac
 Disp &quot;[ENTER] FOR NEXT&quot;
 Pause 
-Disp &quot;Csc θ&quot;,H/OFrac
+Disp &quot;Csc θ&quot;,H/O[black arrow right]Frac
 Disp &quot;[ENTER] FOR NEXT&quot;
 Pause 
-Disp &quot;Sec θ&quot;,H/AFrac
+Disp &quot;Sec θ&quot;,H/A[black arrow right]Frac
 Disp &quot;[ENTER] FOR NEXT&quot;
 Pause 
-Disp &quot;Cot θ&quot;,A/OFrac
+Disp &quot;Cot θ&quot;,A/O[black arrow right]Frac
 Disp &quot;[ENTER] TO END&quot;
 Pause 
 Goto A2
@@ -617,12 +617,12 @@ Menu(&quot;Quadratic Formula&quot;,&quot;–B+√(B-4AC)/2A&quot;,G1,&quot;�
 ClrHome
 Lbl G1
 ClrHome
-Disp &quot;–B+√(B-4AC)/2A&quot;
-Disp &quot;X=A,X=B,WHOLE NUMBER=C&quot;
+Disp &quot;–B+√(B^2-4AC)/2A&quot;
+Disp &quot;X^2=A,X=B,WHOLE NUMBER=C&quot;
 Input &quot;A?&quot;,A
 Input &quot;B?&quot;,B
 Input &quot;C?&quot;,C
-If (B-(4AC))&lt;0
+If (B^2-(4AC))&lt;0
 Then
 Disp &quot;No Solution&quot;
 Pause 
@@ -634,18 +634,18 @@ Disp &quot;Not Quadratic&quot;
 Pause 
 Goto A5
 Else
-(–B+√(B-4AC))/(2A)→W
+(–B+√(B^2-4AC))/(2A)→W
 Disp W
 Pause 
 Goto A5
 Lbl G2
 ClrHome
-Disp &quot;–B-√(B-4AC)/2A&quot;
-Disp &quot;X=A,X=B,WHOLE NUMBER=C
+Disp &quot;–B-√(B^2-4AC)/2A&quot;
+Disp &quot;X^2=A,X=B,WHOLE NUMBER=C
 Input &quot;A?&quot;,A
 Input &quot;B?&quot;,B
 Input &quot;C?&quot;,C
-If (B-(4AC))&lt;0
+If (B^2-(4AC))&lt;0
 Then
 Disp &quot;No Solution&quot;
 Pause 
@@ -657,17 +657,17 @@ Disp &quot;Not Quadratic&quot;
 Pause 
 Goto A5
 Else
-(–B-√(B-4AC))/(2A)→H
+(–B-√(B^2-4AC))/(2A)→H
 Disp H
 Pause 
 Goto A5
 Lbl G3
 ClrHome
-Disp &quot;X=A,X=B,WHOLE NUMBER=C&quot;
+Disp &quot;X^2=A,X=B,WHOLE NUMBER=C&quot;
 Input &quot;A?&quot;,A
 Input &quot;B?&quot;,B
 Input &quot;C?&quot;,C
-If (B-(4AC))&lt;0
+If (B^2-(4AC))&lt;0
 Then
 Disp &quot;No Solution&quot;
 Pause 
@@ -679,11 +679,11 @@ Disp &quot;Not Quadratic&quot;
 Pause 
 Goto A5
 Else
-Disp &quot;[–B+√(B-4AC)/2A]
-(–B+√(B-4AC))/(2A)→V
+Disp &quot;[–B+√(B^2-4AC)/2A]
+(–B+√(B^2-4AC))/(2A)→V
 Disp V
-Disp &quot;[–B-√(B-4AC)/2A]&quot;
-(–B-√(B-4AC))/(2A)→Q
+Disp &quot;[–B-√(B^2-4AC)/2A]&quot;
+(–B-√(B^2-4AC))/(2A)→Q
 Disp Q
 Pause 
 Goto A5
