@@ -17,7 +17,9 @@ navbar:
 output:
   html_document:
     css: profilestyle.css
-    in_header: header.html
     theme: cosmo
+      includes:
+        in_header: header.html
+    
 
   
