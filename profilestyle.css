@@ -4,3 +4,15 @@ img[src~="websitepics/tester-2.png"] {
   display: block;
   margin: 0 auto;
 }
+img[src~="https://assets.entrepreneur.com/content/3x2/2000/20151125105751-questions-1014060-1920.jpeg"] {
+  width:330px;
+  height:220.11px;
+  display: block;
+  margin: 0 auto;
+}
+img[src~="websitepics/j0shbl0ck.png"] {
+  width:200px;
+  height:200px;
+  display: block;
+  margin: 0 auto;
+}
