@@ -1,4 +1,16 @@
 <p>&nbsp;</p>
 <h1>__Favorite Food Recipes__</h1>
-<p>I love food! It is probably one of my biggest weaknesses and my stomach can show :joy: </p>
-<p>Below are some recipes from Pinterest that I have found to be my __FAVORITE__!</p>
+<p>I love food! It is probably one of my biggest weaknesses and my stomach can show...</p>
+<p>Below are some recipes from Pinterest that I have found to be my __FAVORITES!__</p>
+<h3>Beef-Wellington</h3>
+[](https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2000/12/19164801/beef-wellington_wide.jpg)
+* __INGREDIENTS__
+    + _For Pastry_
+    + 3 packages (1 lb. each) frozen puff pastry 
+    + _For The Mushrooms_  
+    + 2 large portabella mushrooms, stems removed
+    + 6 Tbs. olive oil; more for cooking
+    + 2 cloves garlic, minced
+    + 1/2 tsp. fresh thyme leaves, lightly chopped
+    + 1/2 tsp. very roughly chopped fresh rosemary
+    + Coarse salt and freshly ground black pepper
