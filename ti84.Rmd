@@ -1,7 +1,3 @@
-
-  <head>
-      <title>Ti-84 Projects<title>
-  <head>
 <p>&nbsp;</p>
 <h1>__Ti-84 Graphing Calculator Programming__</h1>
 <p>The Ti-84 graphing calculators have the ability to create your own programs
