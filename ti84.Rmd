@@ -2,6 +2,7 @@
   <head>
       <title>Ti-84 Projects<title>
   <head>
+    <body>
 <p>&nbsp;</p>
 <h1>__Ti-84 Graphing Calculator Programming__</h1>
 <p>The Ti-84 graphing calculators have the ability to create your own programs
@@ -405,5 +406,5 @@ Stop
 <p>&nbsp;</p>
 <div align="center"><h3>Want to download this code? Click the link to download the ALGEBRA2 program!</h3></div>
 <div align="center"><p>[__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</p></div>
-
+  </body>
 </html>
