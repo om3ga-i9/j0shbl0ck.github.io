@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "Joshua Block MU-IT"
   left:
+    - text: "GitHub"
+      href: https://github.com/
     - text: "Home"
       href: index.html
     - text: "About Me"
@@ -18,8 +20,6 @@ output:
   html_document:
     css: profilestyle.css
     theme: cosmo
-  includes: 
-    after_body: footer.tex
 
     
 
