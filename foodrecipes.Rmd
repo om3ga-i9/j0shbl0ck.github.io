@@ -1,5 +1,4 @@
----
-title: "Food Recipes"
----
-
-Sample Text
+<p>&nbsp;</p>
+<h1>__Favorite Food Recipes__</h1>
+<p>I love food! It is probably one of my biggest weaknesses and my stomach can show :joy: </p>
+<p>Below are some recipes from Pinterest that I have found to be my __FAVORITE__!</p>
