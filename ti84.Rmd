@@ -399,7 +399,7 @@ Lbl A7
 Stop
 ```
 <p>&nbsp;</p>
-<div align="center"><h3>Want to download this code? Click the link to download the ALGEBRA2 program!</h3></div>
-<div align="center"><p>[__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</p></div>
+<div align="center"><h3>Interested in using this program? Click the link to download the ALGEBRA2 program!</h3></div>
+<div align="center"><p>Download [__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</p></div>
 
 
