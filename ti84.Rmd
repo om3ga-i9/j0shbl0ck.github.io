@@ -397,3 +397,6 @@ Goto A6
 Lbl A7
 Stop
 ```
+<p>&nbsp;</p>
+<div align="center"><h1>Want to download this code? Click the link to download the ALGEBRA2 program!</h1></div>
+<div align="center"><h2>[ALGEBRA2 Ti-84 Program](websitepics/ALGEBRA2.TIProgram)</h2></div>
