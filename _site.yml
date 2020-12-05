@@ -4,7 +4,7 @@ navbar:
   title: "Joshua Block MU-IT"
   left:
     - text: "Home"
-      href: index.html
+      href: README.html
     - text: "About Me"
       href: about.html
     - text: "Ti-84 Projects"
