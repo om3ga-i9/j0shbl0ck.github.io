@@ -5,7 +5,7 @@
 <h3>Beef-Wellington</h3>
 ![](https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2000/12/19164801/beef-wellington_wide.jpg)
 <dl>
-  <dt>__INGREDIENTS__</dt>
+  <dt><h3>__INGREDIENTS__</h3></dt>
     <dd>3 packages (1 lb. each) frozen puff pastry</dd>
     <dd>2 large portabella mushrooms, stems removed</dd>
     <dd>6 Tbs. olive oil; more for cooking</dd>
