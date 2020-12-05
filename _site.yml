@@ -18,7 +18,8 @@ output:
   html_document:
     css: profilestyle.css
     theme: cosmo
-  includes: footer.tex
+  includes: 
+    after_body: footer.tex
 
     
 
