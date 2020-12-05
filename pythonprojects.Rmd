@@ -1,5 +1,3 @@
----
-title: "Python Projects"
----
-
-Sample Text
+<p>&nbsp;</p>
+# __Python Projects__
+<p> Below are some sample programs created in my _INFOTC 1040_ programming class.</p>
