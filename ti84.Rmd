@@ -11,7 +11,7 @@ turning what was only being displayed into real-time calculations.
 The programming language is called, _TI-Basics_</p>
 <p>I have not resorted to using my programs anymore, but calculator programs were 
 legal on the ACT exams! The only rule that applied was the programs could only have 
-10 lines of code, however it need said how many programs you could have...</p>
+10 lines of code, however it never said how many programs you could have...</p>
 ### Attached below is the complete source code for my program: ALGEBRA2
 ```text
 ClrHome

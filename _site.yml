@@ -18,8 +18,7 @@ output:
   html_document:
     css: profilestyle.css
     theme: cosmo
-      includes:
-        in_header: header.html
+
     
 
   
