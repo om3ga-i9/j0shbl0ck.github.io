@@ -12,7 +12,7 @@ The programming language is called, _TI-Basics_</p>
 <p>I have not resorted to using my programs anymore, but calculator programs were 
 legal on the ACT exams! The only rule that applied was the programs could only have 
 10 lines of code, however it never said how many programs you could have...</p>
-<p>To learn how to put programs onto your calculator:<a>href="https://www.ti84calcwiz.com/downloading-apps-programs-on-ti-84-plus-calculators/" target="_blank">__Downloading App/Programs...__</a> 
+<p>To learn how to put programs onto your calculator:<a>href="https://www.ti84calcwiz.com/downloading-apps-programs-on-ti-84-plus-calculators/" target="_blank">__Downloading App/Programs...__</a>link.</p> 
 <h3>Attached below is the complete source code for my program: ALGEBRA2</h3>
 ```text
 ClrHome
