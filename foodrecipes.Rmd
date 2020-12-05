@@ -4,7 +4,7 @@
 <p>Below are some recipes from different websites that I have found to be my __FAVORITES!__</p>
 <h2>Beef-Wellington</h2>
 ![](https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2000/12/19164801/beef-wellington_wide.jpg)
-<ul><h3>__INGREDIENTS__</h3><</ul>
+<ul><h3>__INGREDIENTS__</h3>
 <li>3 packages (1 lb. each) frozen puff pastry</li>
 <li>2 large portabella mushrooms, stems removed</li>
 <li>6 Tbs. olive oil; more for cooking</li>
@@ -12,4 +12,5 @@
 <li>1/2 tsp. very roughly chopped fresh rosemary</li>
 <li>Coarse salt and freshly ground black pepper</li>
 </ul>
+<p>&nbsp;</p>
 <p> Complete ingredients and recipe instructions: <a href="https://www.finecooking.com/recipe/individual-beef-wellingtons-with-mushroom-spinach-blue-cheese-filling" target="_blank"> www.finecooking.com</a></p>
