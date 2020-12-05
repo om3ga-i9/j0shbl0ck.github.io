@@ -18,8 +18,8 @@ img[src~="websitepics/j0shbl0ck.png"] {
 }
 }
 img[src~="https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2000/12/19164801/beef-wellington_wide.jpg"] {
-  width:500px;
-  height:400px;
+  width:300px;
+  height:250px;
   display: block;
   margin: 0 auto;
 }

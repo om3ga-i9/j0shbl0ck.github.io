@@ -1,8 +1,8 @@
 <p>&nbsp;</p>
 <h1>__Favorite Food Recipes__</h1>
 <p>I love food! It is probably one of my biggest weaknesses and my stomach can show...</p>
-<p>Below are some recipes from Pinterest that I have found to be my __FAVORITES!__</p>
-<h3>Beef-Wellington</h3>
+<p>Below are some recipes from different websites that I have found to be my __FAVORITES!__</p>
+<h2>Beef-Wellington</h2>
 ![](https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2000/12/19164801/beef-wellington_wide.jpg)
 <dl>
   <dt><h3>__INGREDIENTS__</h3></dt>
