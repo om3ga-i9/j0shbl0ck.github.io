@@ -322,6 +322,122 @@ $(document).ready(function () {
 <p>
 Below are some sample programs created in my <em>INFOTC 1040</em> programming class.
 </p>
+<div id="paintjobestimator.py" class="section level3">
+<h3>PaintJobEstimator.py</h3>
+<pre class="python"><code>#PaintJobEstimator//Josh Block
+import math 
+print (&quot;Paint Job Estimator&quot;)
+ 
+paint_calculation = True
+while (paint_calculation):
+#create variables
+#Ask for square feet and price of paint input
+    while (True):
+        try:
+            qsquare_feet = float(input(&quot;Square feet of wall space?  &quot;))
+            if (qsquare_feet &lt; 0):
+                print (&quot;negative number error&quot;)
+                continue
+        except ValueError:
+            print(&quot;numerical values only&quot;)
+        else:
+            break
+    while (True):
+        try:
+            qpaint_price = float(input(&quot;Price of paint per gallon? $&quot;))
+            if (qpaint_price &lt; 0):
+                print (&quot;negative number error&quot;)
+                continue
+        except ValueError:
+            print(&quot;numberical values only&quot;)
+        else:
+            break
+#variables beginning
+    labor_hours = qsquare_feet/350 * (6)
+    paint_gallons = math.ceil(qsquare_feet / 350)
+    paint_gallons_costs = math.ceil(paint_gallons) * qpaint_price
+    labor_hours_costs = labor_hours * 62.25
+    overall_cost = (paint_gallons_costs + labor_hours_costs)
+#variables end
+#Finilize cost and other neccisties
+    print (&quot;Hours of labor required:&quot;,format(labor_hours,&quot;.1f&quot;))
+    print (&quot;Gallons of paint required:&quot;,paint_gallons)
+    print (&quot;Cost of paint:$&quot;,format(paint_gallons_costs,&quot;.2f&quot;))
+    print (&quot;Cost of labor charges:$&quot;,format(labor_hours_costs,&quot;.2f&quot;))
+    print (&quot;Overall cost of project:$&quot;,format(overall_cost,&quot;.2f&quot;))
+#Need to run program again?
+    another_estimation = input(&quot;Would you like to perform a new estimation? (Y/N): &quot;).lower().strip()
+    if (another_estimation != &#39;y&#39;):
+        print (&quot;Program Closing...&quot;)
+        print (&quot;Program Terminated&quot;)
+        raise SystemExit 
+    else:
+        paint_calculation = True
+</code></pre>
+Download <a href="Coding%20Files/paintjobestimator.py">__PaintJobEstimator.py</a>
+<p>
+ 
+</p>
+</div>
+<div id="objectposncalc.py" class="section level3">
+<h3>Objectposncalc.py</h3>
+<pre class="python"><code># Improved Position Calculation
+# objectposncalc.py (improved)
+
+print(&quot;This program calculates an object&#39;s final position.&quot;)
+
+do_calculation = True
+while(do_calculation):
+
+    # Get information about the object from the user
+    while (True):
+        try:
+            initial_position = float(input(&quot;\nEnter the object&#39;s initial position: &quot;))
+        except ValueError:
+            print(&quot;The value you entered is invalid.  Only numerical values are valid.&quot;);
+        else:
+            break
+        
+    while (True):
+        try:
+            initial_velocity = float(input(&quot;Enter the object&#39;s initial velocity: &quot;))
+        except ValueError:
+            print(&quot;The value you entered is invalid.  Only numerical values are valid.&quot;);
+        else:
+            break
+
+    while (True):
+        try:
+            acceleration = float(input(&quot;Enter the object&#39;s acceleration: &quot;))           
+        except ValueError:
+            print(&quot;The value you entered is invalid.  Only numerical values are valid.&quot;);
+        else:
+            break
+
+    while (True):
+        try:
+            time_elapsed = float(input(&quot;Enter the time that has elapsed: &quot;))
+            if (time_elapsed &lt; 0):
+                print(&quot;Negative times are not allowed.&quot;)
+                continue
+        except ValueError:
+            print(&quot;The value you entered is invalid.  Only numerical values are valid.&quot;);
+        else:
+            break
+
+    # Calculate the final position
+    final_position = initial_position + initial_velocity * time_elapsed + 0.5 * acceleration * time_elapsed ** 2
+
+    # Output final position
+    print(&quot;\nThe object&#39;s final position is&quot;, final_position)
+
+    # Check if the user wants to perform another calculation
+    another_calculation = input(&quot;\nDo you want to perform another calculation? (y/n): &quot;)
+    if (another_calculation != &quot;y&quot;):
+        do_calculation = False
+    </code></pre>
+<p>Download <a href="Coding%20Files/objectposncalc.py"><strong>ObjectPosnCalc.py</strong></a></p>
+</div>
 </div>
 
 
