@@ -1,5 +1,5 @@
 <p>&nbsp;</p>
-# __Ti-84 Graphing Calculator Programming__
+<h1>__Ti-84 Graphing Calculator Programming__</h1>
 <p>The Ti-84 graphing calculators have the ability to create your own programs
 to show the sequences and radians, compute the quadratic formula, and more!</p>
 <p>In tenth grade, I grew tired of having to memorize math formulas, so in my calculator 
@@ -12,7 +12,7 @@ The programming language is called, _TI-Basics_</p>
 <p>I have not resorted to using my programs anymore, but calculator programs were 
 legal on the ACT exams! The only rule that applied was the programs could only have 
 10 lines of code, however it never said how many programs you could have...</p>
-### Attached below is the complete source code for my program: ALGEBRA2
+<h3>Attached below is the complete source code for my program: ALGEBRA2</h3>
 ```text
 ClrHome
 Lbl 0
@@ -399,4 +399,5 @@ Stop
 ```
 <p>&nbsp;</p>
 <div align="center"><h3>Want to download this code? Click the link to download the ALGEBRA2 program!</h3></div>
-<div align="center"><p>[__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</></div>
+<div align="center"><p>[__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</p></div>
+<p>To learn how to put programs onto your calculator: [Downloading App/Programs...](https://www.ti84calcwiz.com/downloading-apps-programs-on-ti-84-plus-calculators/)
