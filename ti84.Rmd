@@ -401,6 +401,6 @@ Stop
 ```
 <p>&nbsp;</p>
 <div align="center"><h3>Interested in using this program? Click the link below!</h3></div>
-<div align="center"><p>Download [__ALGEBRA2 Ti-84 Program__](websitepics/ALGEBRA2.TIProgram)</p></div>
+<div align="center"><p>Download [__ALGEBRA2 Ti-84 Program__](Coding Files/ALGEBRA2.TIProgram)</p></div>
 
 
