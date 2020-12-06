@@ -54,7 +54,7 @@ while (paint_calculation):
         paint_calculation = True
 
 ```
-Download [__PaintJobEstimator.py__](Coding Files/paintjobestimator.py)
+Download [__paintjobestimator.py__](Coding Files/paintjobestimator.py)
 <p>&nbsp;</p>
 <h3>Objectposncalc.py</h3>
 ```python
@@ -114,4 +114,4 @@ while(do_calculation):
         do_calculation = False
     
 ```
-Download [__ObjectPosnCalc.py__](Coding Files/objectposncalc.py)
+Download [__objectposncalc.py__](Coding Files/objectposncalc.py)
