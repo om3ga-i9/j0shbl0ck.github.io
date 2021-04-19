@@ -1,4 +1,4 @@
-[Home Page](https://om3ga-i9.github.io/j0shbl0ck.github.io/) 
+[Home Page](https://j0shbl0ck.github.io/) 
 
 
 
